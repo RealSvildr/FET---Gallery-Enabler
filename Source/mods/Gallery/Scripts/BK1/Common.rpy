@@ -63,6 +63,8 @@ label gallery_katara_breasts:
 
     while True:
         menu: 
+            "Tiny" if "Tiny Breasts" in mods:
+                $ boobs = "tiny"
             "Small":
                 $ boobs = "small"
             "Medium":

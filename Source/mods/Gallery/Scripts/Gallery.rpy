@@ -19,7 +19,7 @@ label gallery_menu:
     call clearInterface
     $ gallery_Book = 0
 
-    # scene expression "images/Gallery/Common/background.webp"
+    # scene expression "mods/Gallery/Images/Common/background.webp"
     call screen gallery_screen
 
 label gallery_menu_book:
@@ -30,7 +30,7 @@ label gallery_menu_book:
     if gallery_Book == 0:
         jump gallery_menu
 
-    # scene expression "images/Gallery/BK[gallery_Book]/background.webp"
+    # scene expression "mods/Gallery/Images/BK[gallery_Book]/background.webp"
     call screen gallery_route_screen
 
 label gallery_menu_route:
@@ -42,7 +42,7 @@ label gallery_menu_route:
     if gallery_Route == 0:
         jump gallery_menu_book
 
-    # scene expression "images/Gallery/BK[gallery_Book]/background.webp"
+    # scene expression "mods/Gallery/Images/BK[gallery_Book]/background.webp"
     python:
         list = [item for item in Gallery if item.Book == gallery_Book and item.Route == gallery_Route]
         menu_list = []

@@ -1,5 +1,9 @@
+init -999:
+    $ mods = [];
+
 init:
     $ gallery_version = "0.9.0"
+    $ mods.append("Gallery")
 
     $ gallery_Book = 0;
     $ gallery_Route = 0;
@@ -9,6 +13,7 @@ init:
     $ gallery_Page = 0;
     $ gallery_PageLength = 0;
     $ gallery_MaxPerPage = 8;
+
 
     python:
         class GalleryItem():
