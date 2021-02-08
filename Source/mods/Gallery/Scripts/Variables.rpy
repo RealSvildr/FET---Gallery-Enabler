@@ -2,7 +2,7 @@ init -999:
     $ mods = [];
 
 init:
-    $ gallery_version = "0.9.0"
+    $ gallery_version = "0.9.1"
     $ mods.append("Gallery")
 
     $ gallery_Book = 0;
@@ -337,10 +337,18 @@ init:
         GalleryItem(4, 2, '[Ending] Asami Sex', 'gallery_asami_ending', True), # From D
 
         #Book 4 Love
-        GalleryItem(4, 3, '{b}New{/b} [Katara] Handjob', 'gallery_bk4l_katara_hj',True),
-        GalleryItem(4, 3, '{b}New{/b} [Katara] Sex', 'gallery_bk4l_katara_sex1',True),
-        GalleryItem(4, 3, '{b}New{/b} [Kya] Masturbation 1', 'gallery_bk4l_kya_mast2',True),
-        GalleryItem(4, 3, '{b}New{/b} [Kya] Masturbation 2', 'gallery_bk4l_kya_mast3',True),
-        GalleryItem(4, 3, '{b}New{/b} [Korra] Water Session', 'gallery_bk4l_bath_sessions2',True),
-        GalleryItem(4, 3, '{b}New{/b} [Korra] Massage', 'gallery_bk4l_korra_massage2',True),
+        GalleryItem(4, 3, '[Katara] Handjob', 'gallery_bk4l_katara_hj', True),
+        GalleryItem(4, 3, '[Katara] Sex', 'gallery_bk4l_katara_sex1', True),
+        GalleryItem(4, 3, '[Kya] Masturbation 1', 'gallery_bk4l_kya_mast2', True),
+        GalleryItem(4, 3, '[Kya] Masturbation 2', 'gallery_bk4l_kya_mast3', True),
+        GalleryItem(4, 3, '[Korra] Water Session', 'gallery_bk4l_bath_sessions2', True),
+        GalleryItem(4, 3, '[Korra] Massage', 'gallery_bk4l_korra_massage2', True),
+
+        GalleryItem(4, 3, '{b}New{/b} [Jinora] Naked', 'gallery_bk4l_jinora_naked',True),
+        GalleryItem(4, 3, '{b}New{/b} [Asami] Photos', 'gallery_bk4l_asami_photos',True),
+        GalleryItem(4, 3, '{b}New{/b} [Opal] Exercise', 'gallery_bk4l_opal_exercise',True),
+        GalleryItem(4, 3, '{b}New{/b} [Kya] Blowjob', 'gallery_bk4l_kya_bj',True),
+        GalleryItem(4, 3, '{b}New{/b} [Kora] Kiss', 'gallery_bk4l_kora_kiss',True),
+        GalleryItem(4, 3, '{b}New{/b} [Movers] Nuktuk Outtakes', 'gallery_bk4l_ginger_fuck',True),
+        GalleryItem(4, 3, '{b}New{/b} [Captain] Anal', 'gallery_bk4l_lotus_anal1',True),
     ];

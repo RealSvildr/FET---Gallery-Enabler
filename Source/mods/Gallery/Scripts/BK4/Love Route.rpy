@@ -893,4 +893,958 @@ label gallery_bk4l_korra_massage2:
     "you stay for a little while before tucking her into the bed and heading out."
 
     return
+##### [Jinora] Naked
+label gallery_bk4l_jinora_naked:
+    scene image "bk4_love/bg/kathouse_day.jpg":
+        pos(0,-300)
+
+    show bfdh bfdh12
+    with dissolve
+    yon "whoa!"
+    yon "hey, jinora."
+    hide bfdh #have to hid it first or xpos and ypos will get messed up
+    show bfdh bfdh10
+    with dissolve
+    jino "hm?"
+    jino "oh, hey [povname]!"
+    hide bfdh
+    show image "bk4_love/bg/kathouse_day.jpg":
+        pos(0,-300)                        
+        linear 3.0 pos(0,-580)
+    show bfdh bfdh10:
+        pos(0,0)
+        easeout 3.0 pos(0,-500)
+    call bk4l_ctc
+    jino "*Ahem*"
+    show image "bk4_love/bg/kathouse_day.jpg":
+        linear 1.0 pos(0,-300)
+    show bfdh bfdh10:
+        linear 1.0 pos(0,0)
+    jino "Did you get a good look?"
+    yon "ahem. um."
+    jino "just kidding."
+    jino "what are you doing here?"
+    yon "just kind of wandering around, to be honest."
+    yon "i didn't see you at the training grounds."
+    yon "what about you?"
+    show bfdh bfdh11 with dissolve
+    jino "i was hoping to take a bath and just kinda relax."
+    jino "katara is amazing for that."
+    yon "yeah, i've seen some of it in session with korra."
+    show bfdh bfdh10 with dissolve
+    jino "you... attend those, huh?"
+    yon "sometimes. i'm still going through therapy myself, and she needs the help."
+    yon "Katara asked me to lend a hand with some of it."
+    yon "...of course you wouldn't really need that?"                    
+    show bfdh bfdh11 with dissolve
+    jino "heh, if you want to you can show what you do exactly during those sessions."
+    jino "but you'll owe me for the show."
+    yon "owe you what, exactly?"
+    jino "i'm sure i can come up with something."
+    yon "so... i've been wondering..."
+    jino "yeah?"
+    yon "do those tattoos... go all over?"
+    jino "yeah!"
+    jino "I got them when I was really young."
+    yon "Are you... bragging?"
+    jino "I saw you don't have any tattoos, but trust me it's not a pleasant experience."
+    jino "They had to be done in such a way that as I get older they don't distort too much."
+    jino "you know... because my body was still changing."
+    jino "here... let me show you."
+    show bfdh bfdh12 with dissolve
+    jino "you can see they're all the way down my back."
+    yon "i saw that when i came in."
+    yon "they run right down into..."
+    yon "do they go into your... um..."
+    jino "are you staring at my ass there?"
+    yon "maybe."
+    jino "well, if you {i}really{/i} want to know..."
+    jino "I might give you a quick look."
+    jino "I mean I've seen you naked, so I guess it would only be fair."                    
+    show bfdh bfdh13 with dissolve
+    jino "how's that? can you see?"
+    call bk4l_ctc
+    yon "i can see soooome..."                    
+    show bfdc bfdc01:
+        xzoom -1
+    with dissolve
+    k4 "jinora, i'm ready to-"
+    show bfdc bfdc08
+    k4 "hey!" with vpunch
+    k4 "none of that!"
+    yon "what?"
+    k4 "not with jinora!"
+    jino "i'm just showing my tattoos, katara!"
+    k4 "you're my granddaughter, you really shouldn't call me by my name."
+    k4 "get out of here, you."
+    k4 "jinora, let's have that bath."
+    yon "but-"
+    k4 "scoot!"
+    yon "oh, fine..."
+    jino "see you later, [povname]!"
+    k4 "...."
+
+    return
+##### [Asami] Photos
+label gallery_bk4l_asami_photos:
+    
+    scene image "bk4_love/bg/igloo.jpg":
+        pos(0,-100)
+    show bfdt bfdt08
+    with fade
+
+    po3 "alright, fair's fair."
+    po3 "here ya go!"
+    play sound "audio/win2.mp3"
+    "you got a stack of photos!"
+    show image "bk4_love/asami/photos/stack.png"
+    with dissolve
+    call bk4l_ctc
+    yon "damn, these are no joke."
+    yon "this chick is hot as hell."
+    yon "are they all like this?"
+    po3 "oh yeah."
+    po3 "look through a few."
+    yon "don't mind if i do..."
+    hide image "bk4_love/asami/photos/stack.png"
+    show image "bk4_love/asami/photos/selfie_1.jpg"
+    with dissolve
+    call bk4l_ctc
+    yon "daaaaaaamn."
+    hide image "bk4_love/asami/photos/selfie_1.jpg"
+    show image "bk4_love/asami/photos/selfie_2.jpg"
+    with dissolve
+    call bk4l_ctc
+    yon "these are awesome."
+    hide image "bk4_love/asami/photos/selfie_2.jpg"
+    show image "bk4_love/asami/photos/selfie_3.jpg"
+    with dissolve
+    call bk4l_ctc
+    yon "bananas sexy."
+    hide image "bk4_love/asami/photos/selfie_3.jpg"
+    with dissolve
+    po3 "alright, i'm gonna go eat my ice cream."
+    hide bfdt with dissolve
+    yon "these are definitely saucy."
+    yon "i should take them to kya."
+    
+    return
+##### [Opal] Exercise
+label gallery_bk4l_opal_exercise:
+    
+    scene image "bk4_love/bg/your_room.jpg":
+        xzoom -1.0 pos(0,-280)
+
+
+    show bfdq bfdq04:
+        pos(0,200)
+    call bk4l_ctc
+    opal "1 2 3... 10!"
+    show bfdq bfdq04:
+        linear 3.0 pos(0,40) zoom 0.9
+    yon "..."
+    yon "......."
+    yon "(this is an amazing view!)"
+    pause
+    show bfdq bfdq05 with Dissolve(1.3)
+
+
+    opal "hm?"
+    opal "[povname]?"
+    opal "...."
+
+    hide bfdq
+    show bfdq bfdq06 at Move((0, 0), (0, 30), .10, bounce=True)
+
+    yon "What are you doing?"
+    opal "they're exercises to stay healthy."
+    opal "I... I could show you how to do them..."
+    yon "Well, sure why not?"
+    show bfdq bfdq08 with dissolve
+    opal "Let's start simple."
+
+    show bfdq bfdq02 with Dissolve(1.3)
+    opal "you start with this position..."
+    pause
+
+    show bfdq bfdq03:
+        linear 0.3 pos (30,10)
+        linear 1.1 pos (50,10)
+        linear 0.6 pos (0,0)
+        linear 0.4 pos (0,0)
+        repeat
+
+    opal "...then you stretch like this!"
+    pause
+
+    show bfdq bfdq08 with dissolve:
+        pos(0,0)
+    opal "Okay, next exercise."
+
+    show bfdq bfdq00:
+        pos(-10,0)
+        linear 2.0 pos(20,0)
+        linear 0.5 pos(0,0)
+        linear 1.5 pos(0,0)
+        repeat
+    opal "For this you want to get realllll low."
+    "you try your best to keep up with the seemingly easy exercises..."
+    "but end up trying harder not to fall over than truly mimic opal's movements."
+    show bfdq bfdq08 with dissolve:
+        pos(0,0)
+    opal "Well those are the basics!"
+    show bfdq bfdq07 with dissolve
+    opal "You did well for someone who is really bad at this!"
+
+    yon "Do you think I can come and do these with you more often?"
+    yon "I have very little self discipline and doing them with someone else will keep me on track."
+    show bfdq bfdq06
+    opal "Oh I don't mind! i still owe you for that... incident..."
+    yon "You owe me nothing. The world is the world. Accidents will happen."
+    show bfdq bfdq07
+    opal "well okay, from now on if you feel like training just come and visit me."
+    
+    return
+##### [Kya] Blowjob
+label gallery_bk4l_kya_bj:
+
+    scene image "bk4_love/bg/igloo.jpg":
+        pos(0,0)
+
+    show bfde bfde01
+    with dissolve
+    yon "kya!"
+    yon "can you guess what i'm here for?"
+    kya "*sigh*"
+    kya "are we really doing this?"
+    yon "we're definitely doing this."
+    kya "guess i'll undress then..."
+    hide black
+    show black
+    with dissolve
+    "you take off your clothes as kya does the same."
+    hide bfde
+    hide black
+    show bfda bfda02
+    with fade
+    kya "alright, let's..."
+    kya "....."
+    kya "wow."
+    kya "that is..."
+    show bfda bfda01
+    with dissolve
+    kya "...wow."
+    kya "are they all like that?"
+    yon "Like what?"
+    kya "um... big."
+    show bfda bfda04
+    kya "you just... walk around with that?"
+    kya "how?"
+    yon "to be honest, it's pretty distracting."
+    yon "it gets me in all sorts of trouble."
+    yon "...pretty much constantly."
+    show bfda bfda03
+    kya "i bet it does..."
+    kya "it's a... a real..."
+    kya "...."
+    yon "you okay?"
+    yon "you trailed off mid-thought."
+    kya "i... hmm?"
+    yon "you're not horny, are you?"
+    yon "for dick?"
+    show bfda bfda01
+    with dissolve
+    kya "what? no.... of course not."
+    yon "i thought you were a lesbian?"
+    kya "i... shut up."
+    kya "i want... i just want to try something."
+    kya "i'm going to sit."
+    scene
+    scene image "bk4_love/bg/igloo.jpg":
+        pos(0,-280)
+
+
+    show bfds bfds00
+    with fade
+    kya "alright, now that i'm down here..."
+    kya "I just want to say..."
+    kya "this is all new for me."
+    kya "so... let's go slow."
+    show bfds bfds06 with dissolve
+    kya "okay?"
+    yon "sure."
+    kya "well, in that case..."
+    kya "why don't you come over here?"
+    show bfds bfds05 with dissolve
+    kya "i guess this is really hapenning."
+
+
+    show bfds bfds01 with dissolve
+    kya "how should we-"
+
+    show bfds bfds02 at Move((0, 0), (-10, 0), .10, bounce=True)
+    kya "mm!"
+    yon "i'm going to fuck your mouth now."
+    kya "hgh?"
+
+
+    show bfds bfds20
+    show bfds_head:
+        linear 1.2 pos(-10,0)
+        easeout 0.6 pos(0,0)
+        repeat
+
+    kya "mmmm..."
+    pause
+    yon "kya, your mouth feels amazing!"
+    kya "hmhm..."
+    yon "you're taking it pretty far down, i'm really surprised!"
+    pause
+    yon "I just... i need..."
+    yon "i need more!"
+
+    hide bfds_head
+    show bfds bfds02
+    with dissolve
+
+    show bfds bfds04
+    yon "oh..."
+    yon "{size=+10}fuck!" with hpunch
+    pause
+    kya "mhmm!"
+    yon "yes!"
+    yon "take it!"
+    yon "fuck you! your mouth feels so gooood!!"
+    kya "hgnh!"
+    yon "what?"
+    kya "mmghm!!"
+    pause
+
+    hide bfds
+    show bfds bfds01
+    show image "bk4_love/kya/suck/saliva.png"
+    kya "*cough* *cough*"
+    yon "sorry, i-"
+    kya "that was amazing!"
+    yon "you... enjoyed that?"
+    kya "absolutely!"
+    kya "did you?"
+    yon "well, yeah."
+    yon "i actually started getting kinda close."
+    kya "oh?"
+    kya "hmm..."
+    kya "can you step back?"
+    kya "just for a moment?"
+    yon "uh... sure."
+    hide image "bk4_love/kya/suck/saliva.png"
+    show bfds bfds06
+    with dissolve
+    kya "great."
+    kya "now lay down."
+    kya "i want to try a different position."
+
+
+    scene image "bk4_love/bg/igloo.jpg":
+        pos(0,-300)
+
+    show bfds bfds38 with dissolve
+    kya "oh yes... i like being in control."
+    yon "uh..."
+    kya "don't worry, i'm going to take care of you."
+    kya "i just want to try something."
+    yon "what?"
+    kya "well... you were enjoying it, right?"
+    yon "yeah, it was awesome."
+    kya "i want to see how good i really am."
+
+
+    show bfds bfds39 with dissolve
+    kya "*sshhluuurp*"
+    yon "hngh..."
+
+    show bfds bfds40
+
+    show bfds_tits:
+        pos(350,180)
+        linear 0.5 pos(350,200)
+        linear 1.5 pos(350,180)
+        repeat
+    show bfds_suck4:
+        pos(430, 180)
+        linear 0.5 pos(430, 100)
+        linear 1.5 pos(430, 180)
+        repeat
+    show bfds_hand:
+        pos(500,450)
+
+    kya "*slurp* *mmm*"
+    pause
+    yon "holy hell... that's..."
+    yon "wait, are you... moaning?"
+    kya "mmmmmmmm...."
+    yon "that's so deep..."
+    pause
+    hide bfds_suck4
+    show bfds_suck3 behind bfds_hand:
+        pos(430, 180)
+        linear 0.5 pos(430, 100)
+        linear 0.5 pos(430, 180)
+        repeat
+    "kya speeds up, forcing you down her throat with enthusiasm."
+    pause
+    yon "your moans are vibrating your whole throat!"
+    yon "shit, your mouth feels incredible!"
+    yon "i'm not gonna last...."
+    kya "mmmm...."
+    pause
+    kya "*slurp* *slurp*"
+
+    menu:
+        "cum in mouth":
+            yon "fuck, i'm... i'm gonna..."
+            scene image "bk4_love/bg/igloo.jpg":
+                pos(0,-300)
+
+            show bfds bfds41 with vpunch
+            yon "cum!"
+            with vpunch
+            kya "mmm!!"
+            yon "i can feel it filling up your mouth..."
+            kya "mmhmmm...."
+            with vpunch
+            yon "ahh..."
+            yon "swallow it."
+            kya "........"
+            show bfds bfds38
+            show image "bk4_love/kya/suck/xspermin.png"
+            with dissolve
+            kya "ah!"
+            kya "wow, that was a lot..."
+            kya "and... not bad."
+            kya "i thought it'd taste way worse."
+            kya "how did i do?"
+            yon "you still left kind of a mess..."
+            kya "it was a lot!"
+
+        "cum on face":
+            yon "sit back, i'm gonna cover your face!"
+            scene image "bk4_love/bg/igloo.jpg":
+                pos(0,-300)
+            show bfds bfds00
+            with dissolve
+
+            yon "here it comes! i'm gonna paint your face, kya!"
+            kya "i guess-"
+            show bfds_spermshot with vpunch
+            show image "bk4_love/kya/suck/spermout1.png" with flash
+            kya "oh!"
+            kya "wow, that-"
+            yon "hngh!"
+            show bfds_spermshot with vpunch
+            show image "bk4_love/kya/suck/spermout2.png" with flash
+            kya "....well."
+            kya "that was a lot of... mess."
+            kya "do you always shoot so much?"
+            kya "it's everywhere..."
+            yon "usually, yeah."
+            yon "i'm like a firehose."
+            kya "huh."
+
+
+    kya "well thank you for a fun night."
+    kya "we'll have to see what other kind of... trouble... that cock can get us in."
+    kya "goodnight!"
+
+    return
+##### [Kora] Kiss
+label gallery_bk4l_kora_kiss:
+
+    scene image "bk4_love/bg/koroom_night_1.jpg"
+    with fade
+
+    show bfdw bfdw01:
+        xpos 600
+        linear 2.0 xpos 300
+    kn "*hic*"
+    kn "helllooo cutie. pie. person."
+    yon "...are you okay?"
+
+    show bfdw bfdw01
+    kn "*hic* I'm not drunk."
+    yon "i didn't say you were."
+    yon "but i'm gonna go ahead and guess that you are drunk."
+    yon "how did you even get drunk?"
+    kn "ittt happens."
+    kn "sumimes."
+    yon "where'd you get the booze?"
+    kn "didjoo know that jinora ish quick?"
+    kn "like... shuper quick."
+    kn "she stole a thing. a drink. ah alcohol."
+    yon "jinora got you drunk?"
+    kn "maaayybeee."
+    yon "was it on purpose?"
+    kn "we were spennin time an' i said i see you some eveningsh and she gave me lotsa alcohol."
+    yon "she got you too drunk to hang out with me?"
+    yon "hmmm...."
+    kn "well we're hangin' now, right??"
+    kn "hey! wanna see a trick?"
+    yon "... i dunno..."
+    show bfdw bfdw02 at Move((300, 0), (300,30), .30, bounce=True)
+    pause
+    yon "...."
+    yon "that is an amazing trick!"
+
+    show bfdw bfdw03 with dissolve
+    kn "heehee, that's just the firsh part!"
+    kn "thats, thash not even... see!"
+    kn "this goes up and then..."
+
+
+    show bfdw bfdw03:
+        linear 1.0 pos(40,0)
+    kn "here I go!"
+
+    show bfdw bfdw04:
+        xzoom 1.0
+        linear 0.2 xpos -20
+        linear 0.8 xpos -60
+        xzoom -1.0
+
+        linear 0.2 xpos 20
+        linear 0.8 xpos 60
+        repeat
+    call bk4l_ctc
+    kn "look at 'em!"
+    pause
+    kn "just flopping around!"
+    kn "they're like... way big but shtill perky sho i can do thish!"
+    kn "look at 'em goooo!!"
+    pause
+    yon "i am not exaggerating when i say i could watch that all night."
+    hide bfdw
+    show bfdw bfdw03
+    kn "aw, you're a shweetie."
+    kn "you know... i kinda got drunk on purposh because i-"
+    show image "bk4_love/korra/shake/dizzy.png" with dissolve
+
+    kn "...i don't feel so good..."
+
+    hide bfdw
+    hide image "bk4_love/korra/shake/dizzy.png"
+    show bfdd bfdd01 with vpunch:
+        pos(-300,0)
+    "korra falls out of wheelchair."
+    yon "..."
+    yon "yeah, that makes sense."
+    "you carry her to bed."
+
+    scene image "bk4_love/bg/korra_bed.jpg" with fade:
+        xzoom -1.0 pos(0,0)
+
+    show bfdw bfdw10 at Move((0, 0), (0,30), .30, bounce=True)
+    kn "hmn..."
+    pause
+    yon "maybe i should give you some privacy."
+    show bfdw bfdw11 with dissolve
+    "you pull down her shirt."
+
+    show bfdw bfdw14
+    kn "too warm!!"
+
+    show bfdw bfdw12 at Move((0, 0), (0,30), .30, bounce=True)
+    pause
+    yon "um... you're in charge."
+    yon "and also, i'm not complaining about the view."
+    kn "thanks for making thish place less dreary."
+
+    show bfdw bfdw13
+    kn "..."
+    kn "aren't you going to try and kiss me??"
+
+    menu:
+        "maybe when you're less intoxicated?":
+            kn "coward... I'm showing you my titties... get a clue."
+        "lean forward and...":
+
+            show bfdw bfdw15 with dissolve
+            yon "I..."
+            pause
+            pass
+
+    show text "{size=+5}ZZ{/size}zzzzzz":
+        pos(650,180) alpha 0.8
+        linear 4.0 pos(500,180) alpha 0.0
+        repeat
+
+    show bfdw bfdw10 with hpunch
+    kn "*zzzzz*"
+    yon "...right."
+    yon "Wow, korra is really not into the whole slow approach thing..."
+    yon "Me neither, but... she's like basically me in a former life."
+    yon "A hot water tribe girl version with very nice round parts, but still..."
+    yon "Is this really what I should be doing?"
+
+    show bfdw bfdw11 with dissolve
+    yon "sweet dreams, girl me."
+    "You kiss her on her cheek and silently leave."
+    scene
+    scene image "bk4_love/bg/compound_night.jpg"
+    show bfdj bfdj02
+    with dissolve
+    yon "ah!" with vpunch
+    yon "opal? why are you outside korra's door?"
+    opal "I... I heard some weird noises, I just wanted to make sure everything was alright."
+    yon "Don't worry, Korra has gotten her hands on something... strong."
+    yon "She'll regret it in the morning, but she's fine."
+    opal "oh. okay. good!"
+    opal "um..."
+    opal "goodnight!"
+    hide bfdj with dissolve
+    yon "that was kinda weird."
+
+    return
+##### [Movers] Nuktuk Outtakes
+label gallery_bk4l_ginger_fuck:
+    
+    scene image "bk4_love/bg/movieset.jpg"
+    show bfdu_rollfilmbig
+    hide bfdu_rollfilmbig with Dissolve(2.0)
+
+    varrick "Where are the Lights and props! Zhu li!!"
+    show image "bk4_love/ginger/fuck/lights.png":
+        pos(1000,0)
+        linear 2.0 pos(0,0)
+    pause(2.0)
+    varrick "Okay this is the scene where nuktuk's girlfriend gets drilled!"
+    varrick "aaaand action!"
+    scene image "bk4_love/bg/drillroom.jpg"
+    show bfdv bfdv01
+    with dissolve
+    "narrator" "oh no! what danger! is there any hope left?!"
+
+    show bfdv bfdv02 with hpunch
+    "narrator" "it's nuktuk!"
+
+    show bfdv bfdv03 with dissolve
+    "narrator" "with his damsel unable to free herself, nuktuk does the only thing he can!"
+    varrick "Cut! Okay drop your pants and get hard, Bolin."
+
+
+    show bfdv bfdv04
+
+    "bolin" "Wait, what?"
+    varrick "This is the drilling scene, so you're going to drill into ginger here!"
+    varrick "{size=+20}with your dick!{/size}"
+    "bolin" "But... isn't this a children's show?!?"
+    varrick "Sure! but we're also shooting a pornmover at the same time!"
+    varrick "It's two birds with one stone!"
+    varrick "There's people going to do it, so why not us!??"
+    varrick "They'd probably call it \"Fukfuk\" or some other idotic name!"
+    varrick "With ugly actors who barely look like you guys!!"
+    varrick "Bad wigs and no plot to speak of!"
+    varrick "We'll just release this as a directors cut, or bloopers or something! I don't care!"
+    varrick "Why am I still talking?!?"
+
+    varrick "{size=+20}zhu li!!{/size}" with hpunch
+    show image "bk4_love/ginger/fuck/zhuli_1.png":
+        pos(300,0)
+        linear 1.0 pos(0,0)
+    "zhu li" "Yes sir?"
+    varrick "do the thing!"
+    "zhu li" "Yes sir."
+
+    hide image "bk4_love/ginger/fuck/zhuli_1.png"
+    show image "bk4_love/ginger/fuck/zhuli_2.png" at Move((-150, 0), (0,0), .30, bounce=True, repeat = True, delay=1.0)
+    pause(1.0)
+    show bfdv bfdv08
+    with Dissolve(1.0)
+
+    "Zhu li quickly removes the cardboard drill and skirt."
+    hide image "bk4_love/ginger/fuck/zhuli_2.png"
+    show image "bk4_love/ginger/fuck/zhuli_1.png":
+        pos(0,0)
+    with dissolve
+    "zhu li" "The preparations are done sir."
+    varrick "Great! Time for action!"
+
+    show image "bk4_love/ginger/fuck/zhuli_1.png":
+        linear 1.0 pos(400,0)
+    "bolin" "umm..."
+    "bolin" "i don't know if-"
+    varrick "Kid. Take a look at ginger."
+    varrick "legs in the air and ready to go!"
+    varrick "a consummate professional!"
+    varrick "now let's consummate this scene!"
+    varrick "get over there and be a professional!!"
+
+    show bfdv bfdv06 with Dissolve(1.5)
+    "bolin" "Is this... am i doing it right?"
+    varrick "you're doing great!"
+    varrick "now get in there!"
+    show bfdv bfdv07 with Dissolve(1.5)
+    "bolin" "okay, but um..."
+    "bolin" "Sorry if mess this up... I don't rea-"
+
+    show image "bk4_love/ginger/fuck/ginhead.png"
+    "ginger" "Can you hurry this up?!? I have more to do than just this scene today!"
+    "bolin" "But..."
+    "ginger" "{size=+20}now!!!{/size}"
+    hide image "bk4_love/ginger/fuck/ginhead.png"
+
+    show bfdv bfdv09 with hpunch
+
+    varrick "now that's mover magic!!"
+    varrick "..."
+    varrick "Bolin!! You need to move!"
+    varrick "There's no point in making a mover where the actor doesn't move!"
+    "bolin" "Sorry"
+
+    show bfdv bfdv10
+    show bfdv_fuckani2
+    call bk4l_ctc
+    varrick "That's it! You're a natural!"
+    varrick "Get me a close up of the action!"
+    varrick "I want to be able and count her pubes! If she had any!"
+
+    scene bfdv_fuck3
+    call bk4l_ctc
+    varrick "Excellent! We're going to make a lot of money with this people!"
+    varrick "go balls deep, Bolin!"
+    varrick "She's not your damn grandmother!"
+    scene image "bk4_love/bg/drillroom.jpg"
+
+
+    show bfdv bfdv10
+    show bfdv_fuckani1:
+
+
+    show bfdv_fuckani1 with hpunch:
+        linear 0.2 pos(-10,0)
+        linear 0.6 pos(10,0)
+        linear 0.2 pos(20,0)
+        linear 0.6 pos(25,0)
+        repeat
+    call bk4l_ctc
+
+    "bolin" "how... are... you... ginger...?"
+    "ginger" "you don't have to talk to me to do your job."
+    "bolin" "oh..."
+    "ginger" "(i can't believe this dork is fucking me...)"
+    varrick "Now give her a creampie!"
+    "bolin" "but i'm..."
+    "bolin" "i'm not there yet..."
+    varrick "we're wasting film! give her the nut, bolin!"
+    "bolin" "i'm trying!"
+    "bolin" "I'm... almost..."
+    "bolin" "almost..."
+   
+    play sound "audio/splurt2.ogg"
+    hide bfdv_fuckani1    
+    show bfdv bfdv09 with hpunch
+    "bolin" "ah!"    
+    
+    play sound "audio/splurt2.ogg"
+    show bfdv bfdv09
+    with hpunch
+    "bolin" "there's so much!"
+    show bfdv bfdv09 with hpunch
+    "bolin" "take it all, ginger!"
+
+    show bfdv bfdv06
+    show image "bk4_love/ginger/fuck/spermin.png"
+    with dissolve
+    "bolin" "*pant* *pant*"
+    varrick "perfect!"
+    show image "bk4_love/ginger/fuck/zhuli_1.png":
+        pos(400,400) zoom 0.9
+        linear 1.0 pos(160,400)
+    "Zhuli" "Actually part of the studio got in the frame, ruining the shot."
+    show image "bk4_love/ginger/fuck/zhuli_1.png":
+        linear 1.0 pos(400,400)
+    varrick "...We're doing it again!!"
+
+    show bfdv bfdv05 with vpunch
+    "ginger" "What!?!?"
+
+    return
+
+##### [Captain] Anal
+label gallery_bk4l_lotus_anal1:
+
+
+    scene image "bk4_love/bg/igloo.jpg":
+        pos(0,-100)
+
+    show bfdt bfdt07
+    po3 "where have you been?!"
+    po3 "we had a deal!"
+    yon "i spent last night in a cave!"
+    po3 "well, don't do it again."
+    yon "...."
+    yon "okay."
+    yon "if i'd known you needed it so badly, i wouldn't have almost frozen to death in the tundra."
+    show bfdt bfdt08 with dissolve
+    po3 "don't be an ass."
+    yon "I'm an ass?"
+    yon "What about that logo on your hat... or is it a cap?"
+    yon "No matter.. the logo on it looks like a butt."
+    po3 "That's not a nice thing to say."
+    yon "I'm being very nice by not calling it a clenched anus."
+    po3 "...it's a white lotus."
+    po3 "It's just a coincidence that it can look like something else."
+    po3 "Just like one of those rorshach tests."
+    po3 "You should feel bad for seeing something that banal in it."
+    yon "are you sure? Also... \"banal\"?  Really?"
+    po3 "do you want your reward or not?!"
+    po3 "you brought back my guards... for whatever good they are..."
+    po3 "and you deserve a little... treat."
+    po3 "... oh fuck it, i just want my ass slammed."
+    po3 "I haven't had good anal in ages and i'm afraid i've tightened all the way up again."
+    yon "i can {i}definitely{/i} help with that."
+    po3 "good!"
+    po3 "let me just take these pants off..."
+
+    show bfdt bfdt10
+    with fade
+    po3 "fuck, i'm trembling!"
+    po3 "you seeing this?"
+    po3 "look at my little legs go."
+    yon "um... you sure-"
+    po3 "yes!"
+    show bfdt bfdt11
+    po3 "...oh shit."
+    po3 "that is..."
+    po3 "go easy at first, it's been a while."
+    po3 "i might need a minute to-"
+    play sound "audio/spit.mp3"
+    show image "bk4_love/lotus/anal/spit.png":
+        linear 1.0 alpha 0.0
+    pause(1.0)
+    show image "bk4_love/lotus/anal/hand.png"
+    show bfdt bfdt12
+    with dissolve
+    po3 "{i}ohhhhhh....{/i}"
+
+    show bfdt bfdt13 with dissolve
+
+    hide image "bk4_love/lotus/anal/hand.png"
+    show bfdt_arm
+    with dissolve
+    po3 "f...fuck."
+    po3 "that is... fuck..."
+    po3 "spirits, i missed that feeling."
+    yon "this is insanely tight!"
+    yon "and... your ass is so warm..."
+    po3 "You're not exactly sticking a icicle in me either!"
+    po3 "I know because I tried that before."
+    po3 "Not going to repeat that anytime soon!"
+    po3 "Enough sexy talk!"
+    po3 "Start digging!"
+
+
+    hide bfdt
+    hide bfdt_arm
+    show bfdt bfdt15:
+        linear 1.2 pos(10,0)
+        linear 0.6 pos(0,0)
+        repeat
+
+    show bfdt_legs1:
+        linear 1.2 pos(-20,0)
+        linear 0.6 pos(0,0)
+        repeat
+    show bfdt_arm
+    call bk4l_ctc
+    po3 "*ugh* *ah...*"
+    yon "it's like... coming home..."
+    yon "It's been some time since I got to stick it in a girls' ass."
+    po3 "that's... yes... just like that..."
+    po3 "use me... unghh..."
+    po3 "yes, just like-"
+    yon "i can't take it anymore!"
+    yon "Enough of this slow shit!"    
+
+    hide bfdt_legs1
+    hide bfdt_arm
+    hide bfdt
+    show bfdt bfdt18
+    po3 "fuck!"
+    po3 "yes!"
+    
+    call bk4l_ctc
+    
+    po3 "fuck my shithole!"
+    po3 "fuck it good!"
+    po3 "i'm a good girl!"
+    po3 "i'm such a good girl for you daddy!"
+    yon "(wha... where did this come from?)"
+    po3 "good girls get cum!"
+    po3 "they get cum in their ass!"
+    po3 "they get their butthole filled with daddy's love liquor!"
+    yon "(what the...)"
+
+
+    menu:
+        "cum inside":
+            po3 "fill my ass, daddy! dump in your load!"
+            show bfdt bfdt17 with hpunch
+            yoa "ungh!"
+            show bfdt bfdt17 with hpunch
+            po3 "yes, daddy!!"
+            po3 "ohhh... you're shooting it so deep!!"
+            show bfdt bfdt09 with dissolve
+            po3 "unnnh..."
+            po3 "that was... a huge load, daddy."
+            po3 "i'm definitely going to be sore all day."
+            po3 "we'll have to do this more... really open me up."
+
+        "cum outside":
+            yon "Turn around!"
+            hide bfdt
+            show bfdt bfdt19
+            with dissolve
+            po3 "yes, daddy!"
+
+            show bfdt bfdt20 with Dissolve(2.0)
+            po3 "drench my little hole!"
+
+            show bfdt_spermshot with hpunch
+            show image "bk4_love/lotus/anal/spermout1.png" with flash
+            yoa "hng!"
+            show bfdt_spermshot with hpunch
+            show image "bk4_love/lotus/anal/spermout2.png" with flash
+            po3 "daddy!!"
+            show bfdt_spermshot with hpunch
+            show image "bk4_love/lotus/anal/spermout3.png" with flash
+            yoa "get wet, bitch!"
+
+            show bfdt bfdt19 with dissolve
+            call bk4l_ctc
+            po3 "Have... have I been a good girl?"
+
+            hide image "bk4_love/lotus/anal/spermout1.png"
+            hide image "bk4_love/lotus/anal/spermout2.png"
+            hide image "bk4_love/lotus/anal/spermout3.png"
+
+
+    show bfdt bfdt08
+    with Dissolve(1.5)
+    po3 "well that was fun!"
+    po3 "Just like the good old times!"
+    yon "soooo... what was that all about?"
+    po3 "what?"
+    yon "all that... daddy... talk?"
+    po3 "i don't know what you're talking about."
+    po3 "just sex talk to make things exciting."
+    po3 "don't think anything of it."
+    po3 "{size=-5}daddy{/size}."
+    show bfdt bfdt07 at Move((0, 0), (0, 30), .30, bounce=True)
+    po3 "Now get out of here."
+    po3 "see you later, punk."
+    
+    return
 #####
+#####
+#####
+#####
+
